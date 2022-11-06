@@ -1,0 +1,13 @@
+clr={
+    "v":"violet",
+    "i":"indigo",
+    "b":"blue",
+    "g":"green",
+    "o":"orange",
+    "r":"red"
+}
+b=input("enter a letter")
+if b in clr.keys():
+    print(clr[b])
+else:
+    print("invalid")
