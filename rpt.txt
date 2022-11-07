@@ -1,0 +1,6 @@
+txt = "apple and cherry"
+count = 0
+for i in txt:
+    if i == 'e':
+        count = count + 1
+print("Count of e in apple and banana is : "+ str(count))
