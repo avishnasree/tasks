@@ -1,0 +1,6 @@
+array1=[1,2,3]
+array2=[3,4,5]
+array3=[3,7,8,]
+for i in array1:
+        if i in array2 and i in array3:
+            print(i, end=" ")

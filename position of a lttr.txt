@@ -1,0 +1,3 @@
+txt = "welcome to python class"
+lttr = "p"
+print(txt.rfind(lttr))

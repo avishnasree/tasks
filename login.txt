@@ -1,0 +1,12 @@
+a=["athul","arun","jithin"]
+b=["a123","b123","c123"]
+name=input("enter your username")
+if name in a:
+    pass_word=input("enetr u r password")
+    ind=a.index(name)
+    if pass_word in b and ind==b.index(pass_word):
+        print("welcome")
+    else:
+        print("invalid password")
+else:
+    print("invalid user")

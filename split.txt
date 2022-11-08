@@ -1,0 +1,3 @@
+txt = "welcome to python class"
+a = txt.split()
+print(a)

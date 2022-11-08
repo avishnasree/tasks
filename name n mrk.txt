@@ -1,0 +1,9 @@
+a=[]
+b=[]
+for i in range(5):
+    name=input("enter u r name")
+    a.append(name)
+    mark=int(input("eneter u r mark"))
+    b.append(mark)
+for i in range(5):
+    print(a[i],"-",b[i

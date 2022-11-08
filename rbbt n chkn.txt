@@ -1,0 +1,9 @@
+heads=35
+legs=94
+def chinese(heads,legs):
+    for i in range(heads+1):
+        j=heads-i
+        if 2*i+4*j==legs:
+            return i,j
+answer=chinese(heads,legs)
+print(answer)

@@ -1,0 +1,3 @@
+word = "welcome to python class"
+print(word.upper())
+print(word.lower())

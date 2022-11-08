@@ -1,0 +1,9 @@
+a=input("enter a word")
+vowels=["a","e","i","o","u"]
+for i in vowels:
+    if a in vowels:
+        count=0
+        count=count+1
+        print("number of vowels are:")
+    else:
+        print("there is no vowels")

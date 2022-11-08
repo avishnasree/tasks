@@ -1,0 +1,7 @@
+a={}
+for i in range(5):
+    name=input("enter ur name")
+    mark=int(input("enter ur mark"))
+    a.__setitem__(name,mark)
+print(a)
+

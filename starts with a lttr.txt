@@ -1,0 +1,9 @@
+a=input("enter a word")
+for i in a:
+    if a.startswith("p"):
+        print("welcome")
+        break
+    else:
+        print("no entry")
+        break
+

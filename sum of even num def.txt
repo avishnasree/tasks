@@ -1,0 +1,17 @@
+def find_even():
+    list=[]
+    for i in range(100,201):
+        sum = 0
+        i=str(i)
+        for j in i:
+            j=int(j)
+            sum=sum+j
+        if sum%2==0:
+            list.append(i)
+    print(list)
+
+find_even()
+
+
+
+

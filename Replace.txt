@@ -1,0 +1,5 @@
+# txt="wellcome to python class"
+# print(txt.replace("wellcome", ""))
+txt = "I like banana"
+a = txt.replace("bananas", "apples")
+print(a)

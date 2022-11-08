@@ -1,0 +1,6 @@
+a={
+    "name":"avishna",
+    "age":"21",
+    "place":"vadakara"
+}
+print(a.values())
